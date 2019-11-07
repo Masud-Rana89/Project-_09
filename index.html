@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	<title>jQuery plugin</title>
+</head>
+<body>
+
+<section class="banner">
+	<div id="particles-js">	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<div class="myCountdown row col-md-10" data-date="2022-12-24 23:59:59">
+                    <div class="col-sm-2" ><span class="counter-days"></span> Days</div>
+                    <div class="col-sm-2" ><span class="counter-hours"></span> Hours</div>
+                    <div class="col-sm-2" ><span class="counter-minutes"></span> Minutes</div>
+                    <div class="col-sm-2" ><span class="counter-seconds"></span> Seconds</div>
+                </div>
+				</div>
+			</div>
+		</div>
+
+</section>
+<section class="bg-danger">
+Lorem ipsum dolor sit ametconsectetur adipisicing elit,sed doeiusmod
+tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non
+proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
+<section class="bg-primary" >
+Lorem ipsum dolor sit ametconsectetur adipisicing elit,sed doeiusmod
+tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non
+proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
+<section class="bg-secondary">
+Lorem ipsum dolor sit ametconsectetur adipisicing elit,sed doeiusmod
+tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non
+proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
+<section class="bg-dark">
+Lorem ipsum dolor sit ametconsectetur adipisicing elit,sed doeiusmod
+tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non
+proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
+<section class="bg-success">
+Lorem ipsum dolor sit ametconsectetur adipisicing elit,sed doeiusmod
+tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non
+proident,sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<!----particles---->
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+
+<!---nice scroll--->
+<script src="js/jquery.nicescroll.min.js"></script>
+<script src="js/loopcounter.js"></script>
+
+
+<script>
+	$(function(){
+      $("body").niceScroll({
+      	cursorcolor: "#424242",
+      	 scrollspeed: 200,
+      	 mousescrollstep: 80,
+      });
+      $(function(){
+      loopcounter('myCountdown');
+     });
+	});
+</script>
+</body>
+</html>
